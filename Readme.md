@@ -8,11 +8,11 @@ Para ejecutar el programa utilizando Docker, sigue estos pasos:
 4. Construye la imagen del contenedor ejecutando el siguiente comando:
 
    ```
-    docker build -t listexample .
+    docker build -t socket .
    ```
 
 5. Una vez que se complete la construcción de la imagen, puedes ejecutar el programa en un contenedor Docker utilizando el siguiente comando:
 
    ```
-    docker run -it --rm listexample
+    docker run -it --rm socket
    ```
